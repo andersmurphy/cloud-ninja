@@ -1,5 +1,5 @@
 (ns cloud-ninja.core
   (:import [cloudNinja Game]))
 
-(comment
+(defn -main []
   (.init (Game.)))
