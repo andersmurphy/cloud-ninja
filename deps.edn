@@ -1,1 +1,6 @@
-{:deps {org.clojure/clojure {:mvn/version "1.10.1"}}}
+{:paths ["src" "target/classes"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :aliases
+ {:build {:deps {io.github.clojure/tools.build {:git/tag "v0.6.8"
+                                                :git/sha "d79ae84"}}
+          :ns-default build}}}

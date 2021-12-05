@@ -1,1 +1,5 @@
-(ns cloud-ninja.core)
+(ns cloud-ninja.core
+  (:import [cloudNinja Game]))
+
+(comment
+  (.init (Game.)))
