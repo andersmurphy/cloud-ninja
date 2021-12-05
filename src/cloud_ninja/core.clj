@@ -1,0 +1,1 @@
+(ns cloud-ninja.core)
